@@ -1,0 +1,278 @@
+<!DOCTYPE html><!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Currículum</title>
+<style>
+       /* Estilos generales */
+       body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 0;
+           background-color: #f5f5f5;
+           color: #333;
+       }
+       .container {
+           max-width: 1000px;
+           margin: 0 auto;
+           padding: 20px;
+           background-color: white;
+           box-shadow: 0 0 10px rgba(0,0,0,0.1);
+       }
+       /* Estilos de títulos */
+       h1, h2, h3 {
+           font-family: 'Comic Sans MS', cursive, sans-serif;
+       }
+       h1 {
+           color: #ff6b6b;
+           text-align: center;
+           font-size: 2.5em;
+           margin-bottom: 20px;
+           text-shadow: 1px 1px 2px #ccc;
+       }
+       h2 {
+           color: #4ecdc4;
+           border-bottom: 2px solid #4ecdc4;
+           padding-bottom: 5px;
+           margin-top: 30px;
+       }
+       h3 {
+           color: #ff8c42;
+       }
+       /* Estilos de imagen */
+       .profile-container {
+           text-align: center;
+           margin-bottom: 30px;
+       }
+       .profile-img {
+           width: 200px;
+           height: 200px;
+           object-fit: cover;
+           border-radius: 50%;
+           border: 5px solid #4ecdc4;
+       }
+       /* Estilos de divisiones */
+       .section {
+           margin-bottom: 30px;
+           padding: 20px;
+           border-radius: 8px;
+           border: 1px solid #ddd;
+       }
+       .info-personal {
+           background-color: #f9f9f9;
+       }
+       .educacion {
+           background-color: #f0f8ff;
+       }
+       .certificaciones {
+           background-color: #f0fff0;
+       }
+       .contacto {
+           background-color: #fff0f5;
+       }
+       /* Estilos de tablas */
+       table {
+           width: 100%;
+           border-collapse: collapse;
+           margin: 20px 0;
+       }
+       th, td {
+           border: 1px solid #ddd;
+           padding: 12px;
+           text-align: left;
+       }
+       th {
+           background-color: #f2f2f2;
+           font-weight: bold;
+       }
+       tr:nth-child(even) {
+           background-color: #f9f9f9;
+       }
+       /* Estilos de listas */
+       ul {
+           list-style-type: square;
+           padding-left: 20px;
+       }
+       li {
+           margin-bottom: 8px;
+       }
+       /* Estilos de formulario */
+       .form-group {
+           margin-bottom: 15px;
+       }
+       label {
+           display: block;
+           margin-bottom: 5px;
+           font-weight: bold;
+       }
+       input, textarea {
+           width: 100%;
+           padding: 10px;
+           border: 1px solid #ddd;
+           border-radius: 4px;
+           font-size: 16px;
+       }
+       button {
+           background-color: #4ecdc4;
+           color: white;
+           border: none;
+           padding: 10px 20px;
+           font-size: 16px;
+           border-radius: 4px;
+           cursor: pointer;
+           transition: background-color 0.3s;
+       }
+       button:hover {
+           background-color: #3dbbb4;
+       }
+       /* Estilos de hipervínculos */
+       a {
+           color: #4ecdc4;
+           text-decoration: none;
+           transition: color 0.3s;
+       }
+       a:hover {
+           color: #ff6b6b;
+           text-decoration: underline;
+       }
+       .document-links {
+           margin-top: 20px;
+       }
+       .document-links a {
+           display: inline-block;
+           margin-right: 15px;
+           margin-bottom: 10px;
+           padding: 8px 15px;
+           background-color: #f0f8ff;
+           border-radius: 4px;
+           border: 1px solid #4ecdc4;
+       }
+       .document-links a:hover {
+           background-color: #e6f3ff;
+       }
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<h1>Mi Currículum</h1>
+<div class="profile-container">
+<img src="/api/placeholder/200/200" alt="Foto de perfil" class="profile-img">
+<p><em></em>C:</p>
+</div>
+</header>
+<div class="section info-personal">
+<h2>Información Personal</h2>
+<table>
+<tr>
+<th>Nombre completo:</th>
+<td>Abraham Salvador Paredes Guerrero</td>
+</tr>
+<tr>
+<th>Fecha de nacimiento:</th>
+<td>30/09/07</td>
+</tr>
+<tr>
+<th>Dirección:</th>
+<td>San Antonio De Peñuelas #130</td>
+</tr>
+<tr>
+<th>Teléfono:</th>
+<td>4493717150</td>
+</tr>
+<tr>
+<th>Correo electrónico:</th>
+<td>aparedes3022@ags.conalep.edu.mx</td>
+</tr>
+</table>
+</div>
+<div class="section educacion">
+<h2>Educación</h2>
+<h3>Formación Académica</h3>
+<table>
+<tr>
+<th>Nivel</th>
+<th>Institución</th>
+<th>Periodo</th>
+<th>Documento</th>
+</tr>
+<tr>
+<td>Kinder</td>
+<td>Club Sertoma</td>
+<td>2011-2013</td>
+<td><a href="#" target="_blank">Ver certificado</a></td>
+</tr>
+<tr>
+<td>Primaria</td>
+<td>Octavio Paz</td>
+<td>2013-2019</td>
+<td><a href="#" target="_blank">Ver certificado</a></td>
+</tr>
+<tr>
+<td>Secundaria</td>
+<td>Tecnica Frida Khalo</td>
+<td>2019-2022</td>
+<td><a href="#" target="_blank">Ver certificado</a></td>
+</tr>
+<tr>
+<td>Preparatoria</td>
+<td>Conalep J.Refugio Esparza</td>
+<td>2022-2025</td>
+<td><a href="#" target="_blank">Ver certificado</a></td>
+</tr>
+</table>
+</div>
+<div class="section certificaciones">
+<h2>Certificaciones</h2>
+<ul>
+<li>
+<strong>[Nombre de la certificación]</strong> - [Institución] ([Año])
+<a href="#" target="_blank">Ver certificado</a>
+</li>
+<li>
+<strong>[Nombre de la certificación]</strong> - [Institución] ([Año])
+<a href="#" target="_blank">Ver certificado</a>
+</li>
+<li>
+<strong>[Nombre de la certificación]</strong> - [Institución] ([Año])
+<a href="#" target="_blank">Ver certificado</a>
+</li>
+</ul>
+</div>
+<div class="section contacto">
+<h2>Formulario de Contacto</h2>
+<form id="contactForm">
+<div class="form-group">
+<label for="nombre">Nombre:</label>
+<input type="text" id="nombre" name="nombre" required>
+</div>
+<div class="form-group">
+<label for="email">Correo electrónico:</label>
+<input type="email" id="email" name="email" required>
+</div>
+<div class="form-group">
+<label for="asunto">Asunto:</label>
+<input type="text" id="asunto" name="asunto" required>
+</div>
+<div class="form-group">
+<label for="mensaje">Mensaje:</label>
+<textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+</div>
+<button type="submit">Enviar mensaje</button>
+</form>
+</div>
+<footer style="text-align: center; margin-top: 30px; padding: 20px; border-top: 1px solid #ddd;">
+<p>&copy; 2025 - Abraham Salvador Paredes Guerrero. Todos los derechos reservados.</p>
+</footer>
+</div>
+<script>
+       // Script para manejar el envío del formulario
+       document.getElementById('contactForm').addEventListener('submit', function(event) {
+           event.preventDefault();
+           alert('¡Formulario enviado! (En una implementación real, este formulario enviaría los datos a un servidor)');
+           this.reset();
+       });
+</script>
+</body>
+</html>
